@@ -1,0 +1,4 @@
+name,machine_type,zone,image
+master,e2-custom-2-6144,us-east1-d,debian-12
+worker-1,e2-custom-2-6144,us-east1-b,debian-12
+worker-2,e2-custom-2-6144,us-east1-c,debian-12
