@@ -21,6 +21,7 @@ For any resource we creating please refer the official documnetation
 
   Stores it inside your project’s hidden folder:
   
-  <img width="506" height="194" alt="image" src="https://github.com/user-attachments/assets/9c3db900-0ad9-4223-99f5-8a173c231089" />
+ <img width="470" height="89" alt="image" src="https://github.com/user-attachments/assets/8647b792-3f7e-4ad1-81e6-6a8240401b1d" />
+
 
   
