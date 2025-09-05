@@ -20,6 +20,8 @@ For any resource we creating please refer the official documnetation
   Downloads the correct Google Cloud provider plugin (terraform-provider-google).
 
   Stores it inside your project’s hidden folder:
+
+  .terraform/providers/registry.terraform.io/hashicorp/google/5.x.x/<os_arch>/terraform-provider-google_vX.X.X
   
  <img width="470" height="89" alt="image" src="https://github.com/user-attachments/assets/8647b792-3f7e-4ad1-81e6-6a8240401b1d" />
 
