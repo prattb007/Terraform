@@ -1,4 +1,4 @@
-For any resource we creating please refer the official documnetation
+For any resource we creating please refer the official documnetation https://registry.terraform.io/providers/hashicorp/google/latest
 
 - providers
 
