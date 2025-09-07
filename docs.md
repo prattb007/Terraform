@@ -30,5 +30,43 @@ For any resource we creating please refer the official documnetation https://reg
 
   - **Firewall**
 
+  🔹 Ingress (Incoming traffic)
+
+  Definition: Controls traffic coming into your VM from outside sources (internet, other networks, or even within the same VPC).
+
+Think of it as: "What traffic am I allowing into my server?"
+
+Examples:
+
+Allowing port 22 (SSH) so admins can log in.
+
+Allowing port 80 (HTTP) or 443 (HTTPS) so users can access your web application.
+
+Restricting traffic so only certain IP ranges (like your office IP) can connect.
+
+📌 Without ingress rules → your VM would be isolated and unreachable.
+
+<img width="670" height="319" alt="image" src="https://github.com/user-attachments/assets/6b52c045-5ba1-4662-8f93-09e8f5241f5d" />
+
+
+🔹 Egress (Outgoing traffic)
+
+Definition: Controls traffic going out of your VM to the internet or other networks.
+
+Think of it as: "Where can my server talk to?"
+
+Examples:
+
+Allowing your VM to connect to external package repositories (apt, yum, npm).
+
+Allowing an app server to talk to a database in another subnet.
+
+Restricting egress so the VM can only communicate inside your private VPC (common in security-sensitive setups).
+
+📌 Without egress rules → your VM might not be able to fetch updates, call APIs, or send logs.
+
+<img width="682" height="278" alt="image" src="https://github.com/user-attachments/assets/a90e4249-9987-4471-8a9c-a5d30b289759" />
+
+
 
   
